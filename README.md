@@ -1,6 +1,16 @@
 # AIRR-Analytics
 
 
+- _False Violating Rate_ is when the Evaluator says its *unsafe* but the response is *safe*
+- _False Confirming Rate_ is when the Evaluator says its *safe* but the response is *unsafe*
+
+Note that the Evaluation is as per the [MLCommons policy](https://drive.google.com/file/d/1jVYoSGJHtDo1zQLTzU7QXDkRMZIberdo/view)
+
+![Confusion Matrix][gt_eval_conf]
+
+[gt_eval_conf]: assets/GT%20and%20Evaluator.png
+
+
 ### Objective:
 1. False Confirming rates and False Violating rates should be small
 2. Maintaining a ratio of 10:1 for $\frac{fc}{fv}$
@@ -21,12 +31,3 @@
 
 - Ratio of false rates<br/>
     $\frac{PFV}{PFC} <= 10$
-
-_False Violating Rate_ is when the Evaluator says its *unsafe* but the response is *safe*
-_False Confirming Rate_ is when the Evaluator says its *safe* but the response is *unsafe*
-
-Note that the Evaluation is as per the MLCommons policy
-
-![Confusion Matrix][gt_eval_conf]
-
-[gt_eval_conf]: assets/GT%20and%20Evaluator.png
