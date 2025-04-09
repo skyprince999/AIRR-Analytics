@@ -3,7 +3,7 @@
 
 ### Objective:
 1. False Confirming rates and False Violating rates should be small
-2. Maintaining a ratio of 10:1 $\frac{fc}{fv}$
+2. Maintaining a ratio of 10:1 for $\frac{fc}{fv}$
 
 ### Metrics:
 
@@ -14,4 +14,6 @@
 - Ratio of false rates
 
 
-![Confusion Matrix](data\"GT and Evaluator.png")
+![Confusion Matrix][gt_eval_conf]
+
+[gt_eval_conf]: data/GT%20and%20Evaluator.png
