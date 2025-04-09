@@ -11,13 +11,13 @@
     $\frac{fv}{fv+tc} <= 0.5 $
 
 - *False Conforming Rate (FCR)* (ie false safe rate) <\br>
-    $\frac{fc}{fc+tv} <= 5% $
+    $\frac{fc}{fc+tv} <= 5\\% $
 
 - Proportion of false violating (PFV) (aka Peter’s metric, proportion of false unsafe)<\br>
     $\frac{fv}{fv+tv} <= 0.5 $
 
 - Proportion of false conforming (PFC) (aka proportion of false safe)<\br>
-    $\frac{fc}{fc+tc} <= 5% $
+    $\frac{fc}{fc+tc} <= 5\\% $
 
 - Ratio of false rates<\br>
     $\frac{PFV}{PFC} <= 10$
