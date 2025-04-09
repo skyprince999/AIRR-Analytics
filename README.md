@@ -3,7 +3,7 @@
 
 ### Objective:
 1. False Confirming rates and False Violating rates should be small
-2. Maintaining a ratio of 10:1 $\ratio{fc, fv}$
+2. Maintaining a ratio of 10:1 $\frac{fc, fv}$
 
 ### Metrics:
 
