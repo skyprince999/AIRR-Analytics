@@ -8,7 +8,7 @@ Note that the Evaluation is as per the [MLCommons policy](https://drive.google.c
 
 ![Confusion Matrix][gt_eval_conf]
 
-[gt_eval_conf]: assets/GT%20and%20Evaluator.png
+
 
 
 ### Objective:
@@ -35,31 +35,37 @@ Note that the Evaluation is as per the [MLCommons policy](https://drive.google.c
 
 ### Visualizations
 
-##### Confusion Matrix
-![Confusion Matrix][assets/confusion.png]
+- Confusion Matrix
+![Confusion Matrix]["assets/confusion.png"]
 
-##### Error Rates
-![Confusion Matrix][assets/error.png]
+- Error Rates
+![Error Rates]["assets/error.png"]
 
-##### Beta Distribution for False Confirming Rate
-![Confusion Matrix][assets/fcr_output.png]
+- Beta Distribution for False Confirming Rate
+![Beta Distribution for False Confirming Rate]["assets/fcr_output.png"]
 
-##### Beta Distribution for False Violating Rate
-![Confusion Matrix][assets/fvr_output.png]
+- Beta Distribution for False Violating Rate
+![Beta Distribution for False Violating Rate]["assets/fvr_output.png"]
 
 
 ### Summary Report
 
 Total evaluations: 8870
+
 - False confirming rate: 0.1127% (95% CI: [0.0619%, 0.2072%])
 - False violating rate: 68.5908% (95% CI: [67.6168%, 69.5484%])
 --------------------------------------------------
 
 Chi-square test for H₀: false confirming rate ≥ 5%: 
-  Chi-square value: 446.03, p-value: 0.0000000000
-  Conclusion: Reject the null hypothesis
+
+- Chi-square value: 446.03, p-value: 0.0000000000
+- Conclusion: Reject the null hypothesis
 --------------------------------------------------
 
 Chi-square test for H₀: false violating rate ≥ 50%: 
-  Chi-square value: 1226.25, p-value: 0.0000000000
-  Conclusion: Fail to reject the null hypothesis
+
+- Chi-square value: 1226.25, p-value: 0.0000000000
+- Conclusion: Fail to reject the null hypothesis
+
+
+[gt_eval_conf]: assets/GT%20and%20Evaluator.png
