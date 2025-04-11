@@ -36,16 +36,20 @@ Note that the Evaluation is as per the [MLCommons policy](https://drive.google.c
 ### Visualizations
 
 - Confusion Matrix
+
 ![Confusion Matrix][conf]
 
 - Error Rates
-![Error Rates]["assets/error.png"]
+
+![Error Rates][error]
 
 - Beta Distribution for False Confirming Rate
-![Beta Distribution for False Confirming Rate]["assets/fcr_output.png"]
+
+![Beta Distribution for False Confirming Rate][fcr]
 
 - Beta Distribution for False Violating Rate
-![Beta Distribution for False Violating Rate]["assets/fvr_output.png"]
+
+![Beta Distribution for False Violating Rate][fvr]
 
 
 ### Summary Report
@@ -70,5 +74,7 @@ Chi-square test for H₀: false violating rate ≥ 50%:
 
 [gt_eval_conf]: assets/GT%20and%20Evaluator.png
 [conf]: assets/confusion.png
-
+[error]: assets/error.png
+[fcr]: assets/fcr_output.png
+[fvr]: assets/fvr_output.png
 
