@@ -36,7 +36,7 @@ Note that the Evaluation is as per the [MLCommons policy](https://drive.google.c
 ### Visualizations
 
 - Confusion Matrix
-![Confusion Matrix]["assets/confusion.png"]
+![Confusion Matrix][conf]
 
 - Error Rates
 ![Error Rates]["assets/error.png"]
@@ -69,3 +69,6 @@ Chi-square test for H₀: false violating rate ≥ 50%:
 
 
 [gt_eval_conf]: assets/GT%20and%20Evaluator.png
+[conf]: assets/confusion.png
+
+
