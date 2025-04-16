@@ -33,6 +33,30 @@ Note that the Evaluation is as per the [MLCommons policy](https://drive.google.c
     $\frac{PFV}{PFC} <= 10$
 
 
+#### TO DO
+
+Main Question:
+
+- [x] Null hypothesis: FCR for hidden dataset is equal to 0.02
+- [x] Null hypothesis: FVR for hidden dataset is equal to 0.5
+
+Earlier calculated:
+- Inter-annotator and GT-AI evaluation aggrement ratios
+    - [ ] Naive percentages
+    - [ ] Cohens' kappa
+    - [ ] Fleiss score
+    - [x] Gwet's AC1 coefficient 
+- Bias representation
+    - [ ] disparity scores for skilled/unskilled personas
+    - [ ] FPR/FNR for personas
+
+Other questions:
+
+- [ ] Statistically significant difference in FCR/FVR between each hazard category 
+- [ ] Characteristics of responses where human annotators are not unanimous -- _how to define this parameter_  %age of such resposnes
+
+
+
 ### Visualizations
 
 - Confusion Matrix
