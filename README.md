@@ -37,8 +37,8 @@ Note that the Evaluation is as per the [MLCommons policy](https://drive.google.c
 
 Main Question:
 
-- [x] Null hypothesis: FCR for hidden dataset is equal to 0.02
-- [x] Null hypothesis: FVR for hidden dataset is equal to 0.5
+- [x] Null hypothesis: FCR for hidden dataset is equal to 2%
+- [x] Null hypothesis: FVR for hidden dataset is equal to 50%
 
 Earlier calculated:
 - Inter-annotator and GT-AI evaluation aggrement ratios
